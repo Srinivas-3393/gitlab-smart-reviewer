@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GitLab AI Code Review",
+  "version": "1.0",
+  "description": "Adds AI code review button to GitLab MRs",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "AI Code Review"
+  },
+  "content_scripts": [{
+    "matches": ["https://gitlab.com/*"],
+    "js": ["ai-code-review.js"],
+    "run_at": "document_idle"
+  }]
+}
