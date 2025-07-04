@@ -1,0 +1,21 @@
+[
+  {
+    "domain": "gitlab.com",
+    "expiry": 1750152989,
+    "httpOnly": false,
+    "name": "cf_chl_rc_m",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "3"
+  },
+  {
+    "domain": ".gitlab.com",
+    "httpOnly": true,
+    "name": "_cfuvid",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "TiVvfuazFVheuHvYePuWlpIofgXvJUALPTUXNMzAXXU-1750149304893-0.0.1.1-604800000"
+  }
+]
